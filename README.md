@@ -103,11 +103,10 @@ Usuario (1) ──── (N) Asignatura (1) ──── (N) Tarea
 
 5. Pulsa **▶ Run** con el emulador o dispositivo conectado
 
-> La base de datos SQLite se crea automáticamente en el primer arranque. No necesitas configurar nada más.
+>  SQLite se crea automáticamente la base de datos en el primer arranque. 
 
----
 
-## Conexión con phpMyAdmin (opcional)
+## Conexión con phpMyAdmin 
 
 Si quieres usar MySQL en lugar de SQLite local:
 
@@ -131,12 +130,9 @@ Si quieres usar MySQL en lugar de SQLite local:
    <uses-permission android:name="android.permission.INTERNET" />
    ```
 
----
-
 ## Paleta de colores
 
 | Token | Color | Hex |
-|-------|-------|-----|
 | Fondo principal | ![#0F0A1E](https://placehold.co/15x15/0F0A1E/0F0A1E.png) | `#0F0A1E` |
 | Superficie cards | ![#1E1040](https://placehold.co/15x15/1E1040/1E1040.png) | `#1E1040` |
 | Color primario | ![#7C3AED](https://placehold.co/15x15/7C3AED/7C3AED.png) | `#7C3AED` |
@@ -159,9 +155,9 @@ Si quieres usar MySQL en lugar de SQLite local:
 
 | Semana | Fase |
 | 1 – 2 | Análisis de requisitos y diseño del sistema 
-| 3 – 5 | Desarrollo de funcionalidades principales 
-| 6 | Pruebas y corrección de errores 
-| 7 | Documentación final 
+| 3 – 7 | Desarrollo de funcionalidades principales 
+| 7-10 | Pruebas y corrección de errores 
+| 10-14 | Documentación final 
 
 ---
 
