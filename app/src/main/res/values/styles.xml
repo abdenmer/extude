@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base de la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/extude_primary</item>
+        <item name="colorPrimaryDark">@color/extude_bg</item>
+        <item name="colorAccent">@color/extude_accent</item>
+        <item name="android:windowBackground">@color/extude_bg</item>
+        <item name="android:statusBarColor">@color/extude_bg</item>
+        <item name="android:navigationBarColor">@color/extude_bg</item>
+        <item name="android:textColor">@color/extude_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Diálogos -->
+    <style name="ExtudedialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/extude_primary</item>
+        <item name="colorAccent">@color/extude_accent</item>
+        <item name="android:background">@color/extude_surface</item>
+        <item name="android:textColorPrimary">@color/extude_text</item>
+        <item name="android:textColorSecondary">@color/extude_text_secondary</item>
+    </style>
+
+    <!-- Splash screen -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/extude_bg</item>
+        <item name="android:statusBarColor">@color/extude_bg</item>
+        <item name="android:navigationBarColor">@color/extude_bg</item>
+    </style>
+
+</resources>

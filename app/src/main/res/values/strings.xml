@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Extude</string>
+    <string name="login_titulo">Iniciar sesión</string>
+    <string name="registro_titulo">Crear cuenta</string>
+    <string name="dashboard_titulo">Panel principal</string>
+    <string name="asignaturas_titulo">Asignaturas</string>
+    <string name="tareas_titulo">Tareas y exámenes</string>
+    <string name="sesion_titulo">Sesión de estudio</string>
+    <string name="estadisticas_titulo">Estadísticas</string>
+
+    <string name="btn_login">Entrar</string>
+    <string name="btn_registro">Crear cuenta</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <string name="hint_email">tu@email.com</string>
+    <string name="hint_password">••••••••</string>
+    <string name="hint_nombre">Tu nombre</string>
+
+    <string name="error_campo_obligatorio">Campo obligatorio</string>
+    <string name="error_email_invalido">Email no válido</string>
+    <string name="error_email_registrado">Este email ya está registrado</string>
+    <string name="error_contrasenas">Las contraseñas no coinciden</string>
+    <string name="error_credenciales">Email o contraseña incorrectos</string>
+
+    <string name="msg_registro_ok">¡Registro exitoso! Inicia sesión</string>
+    <string name="msg_asig_creada">Asignatura creada</string>
+    <string name="msg_tarea_guardada">Tarea guardada</string>
+    <string name="msg_sesion_guardada">Sesión guardada</string>
+</resources>

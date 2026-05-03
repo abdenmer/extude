@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F0A1E">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:paddingTop="32dp"
+        android:background="#1E1040">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📚 Asignaturas"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_agregar_asignatura"
+            android:layout_width="70dp"
+            android:layout_height="58dp"
+            android:background="@drawable/button_primary"
+            android:padding="0dp"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <!-- Lista vacía -->
+    <TextView
+        android:id="@+id/tv_empty_asig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aún no tienes asignaturas.\nPulsa + para añadir una."
+        android:textColor="#6B5E8A"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="48dp"
+        android:visibility="gone" />
+
+    <!-- Lista -->
+    <ListView
+        android:id="@+id/lv_asignaturas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#1E1040"
+        android:dividerHeight="8dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:listSelector="@drawable/list_item_selector"
+        android:scrollbars="none" />
+
+</LinearLayout>

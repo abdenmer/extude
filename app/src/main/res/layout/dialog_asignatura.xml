@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#1E1040">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la asignatura *"
+        android:textColor="#A78BFA"
+        android:textSize="13sp"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/et_nombre_asig"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_background"
+        android:hint="Ej: Matemáticas"
+        android:textColorHint="#6B5E8A"
+        android:textColor="#FFFFFF"
+        android:inputType="textCapSentences"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profesor (opcional)"
+        android:textColor="#A78BFA"
+        android:textSize="13sp"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/et_profesor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_background"
+        android:hint="Nombre del profesor"
+        android:textColorHint="#6B5E8A"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color identificador"
+        android:textColor="#A78BFA"
+        android:textSize="13sp"
+        android:layout_marginBottom="6dp" />
+
+    <Spinner
+        android:id="@+id/sp_color"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_background"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+</LinearLayout>

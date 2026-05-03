@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.extude.app.extude">
+
+    <!-- Permisos (solo internet si en futuro se conecta a servidor remoto) -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_extude"
+        android:roundIcon="@drawable/logo_extude"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Pantalla de inicio: Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegistroActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".DashboardActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".AsignaturasActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".TareasActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".SesionEstudioActivity" />
+
+        <activity
+            android:name=".EstadisticasActivity" />
+
+    </application>
+
+</manifest>
